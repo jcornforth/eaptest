@@ -4,7 +4,7 @@
 
     <groupId>com.tier2</groupId>
     <version>1.0</version>
-    <artifactId>eaptest</artifactId>
+    <artifactId>messaging</artifactId>
     <packaging>war</packaging>
     <name>EAPTest</name>
 
@@ -12,19 +12,4 @@
 
     </properties>
 
-    <build>
-        <!-- Set the name of the war, used as the context root when the app 
-            is deployed -->
-        <finalName>${project.artifactId}</finalName>
-        <plugins>
-            <plugin>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>2.1.1</version>
-                <configuration>
-                    <!-- Java EE 6 doesn't require web.xml, Maven needs to catch up! -->
-                    <failOnMissingWebXml>false</failOnMissingWebXml>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 </project>

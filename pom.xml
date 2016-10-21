@@ -6,7 +6,7 @@
     <version>1.0</version>
     <artifactId>messaging</artifactId>
     <packaging>war</packaging>
-    <name>EAPTest</name>
+    <name>EAP Test</name>
 
     <properties>
 

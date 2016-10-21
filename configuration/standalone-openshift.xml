@@ -342,6 +342,9 @@
                     <jms-queue name="JohnQueue">
                         <entry name="java:/jms/queue/JohnQueue"/>
                     </jms-queue>
+                    <jms-queue name="ChrisQueue">
+                        <entry name="java:/jms/queue/ChrisQueue"/>
+                    </jms-queue>
                 </jms-destinations>
             </hornetq-server>
         </subsystem>
